@@ -39,6 +39,7 @@
         </div>
     </header>
 
+    <!-- Application Section -->
     <section id="apply">
         <div class="container">
             <div id="content">
@@ -48,7 +49,7 @@
                     to
                     you!</p>
                 <form>
-                    <fieldset>
+                    <fieldset id="personal">
                         <legend>Personal Information</legend>
                         First Name:<br>
                         <input type="text" name="firstname"><br>
@@ -56,6 +57,28 @@
                         <input type="text" name="lastname"><br>
                         Birth Date:<br>
                         <input type="date" name="bday"><br>
+                    </fieldset>
+                    <fieldset id="address">
+                        <legend>Address</legend>
+                        Address Line One:<br>
+                        <input type="text" name="address1"><br>
+                        Address Line Two:<br>
+                        <input type="text" name="address2"><br>
+                        City:<br>
+                        <input type="text" name="city"><br>
+                        State:<br>
+                        <input type="text" name="state"><br>
+                        Zip Code:<br>
+                        <input type="text" name="zip"><br>
+                    </fieldset>
+                    <fieldset id="additional">
+                        <legend>Additional Information</legend>
+                        Why do you want to work for Astro Coffee?<br>
+                        <input type="text" name="question1"><br>
+                        Have you had any prior work experience? If yes, explain your role.<br>
+                        <input type="text" name="question2"><br>
+                        Any other thing you would like us to know?<br>
+                        <input type="text" name="question3"><br>
                     </fieldset>
                 </form>
             </div>
