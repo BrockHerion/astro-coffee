@@ -9,6 +9,30 @@ html {
     background-color: #dcd5c3;
 }
 
+/* Possible color combos
+
+Combo 1: 
+    Primary: #739730
+    Secondary-1: #8ab634
+    Secondary-2: #5b762d
+    Accent-1: #c0cd3a
+    Accent-2: #263435
+
+Combo 2:
+    Primary: #fa2b4e
+    Secondary-1: #f7786b
+    Secondary-2: #45d8d3
+    Accent-1: #e6b5b4
+    Accent-2: #0b869d
+
+Combo 3:
+    Primary: #f4e056
+    Secondary-1: #f5a049
+    Secondary-2: #93de82
+    Accent-1: #ed6857
+    Accent-2: #39ab99
+*/
+
 
 /** HEADER STYLING **/
 header {
